@@ -23,7 +23,6 @@ def get_code():
                'state': STATE,
                'scope': 'user.info',  # see docs for enhanced scope
                'redirect_uri': CALLBACK_URI,  # URL of this app
-               'mode': 'demo'  # Use demo mode, DELETE THIS FOR REAL APP
                }
 
     r_auth = requests.get(f'{ACCOUNT_URL}/oauth2_user/authorize2',
