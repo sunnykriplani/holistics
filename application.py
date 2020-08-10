@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 CLIENT_ID = "3f034891bb6540cdf2bbbc19be0bdb7fb9d11800691a0043534fe7e7be995274"
 CUSTOMER_SECRET = "bca35e1f804aaaf8a089967d29abbf4259cf179f06e1c008949c0cf5d1ed057c"
-STATE = ""
+STATE = "dev"
 ACCOUNT_URL = "https://account.withings.com"
 WBSAPI_URL = "https://wbsapi.withings.net"
 CALLBACK_URI = "https://holistics.azurewebsites.net/get_token"
