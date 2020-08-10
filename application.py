@@ -65,3 +65,6 @@ def get_token():
                                params=payload).json()
 
     return r_getdevice
+
+if __name__ == '__main__':
+    app.run()
